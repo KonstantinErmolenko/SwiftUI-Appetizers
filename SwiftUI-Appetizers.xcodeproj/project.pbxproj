@@ -20,6 +20,8 @@
 		A972872625B48431000D6BCB /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972872525B48431000D6BCB /* APError.swift */; };
 		A972873325B491DC000D6BCB /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972873225B491DC000D6BCB /* AppetizerListViewModel.swift */; };
 		A972873625B49B8D000D6BCB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972873525B49B8D000D6BCB /* Alert.swift */; };
+		A972873A25B4A484000D6BCB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972873925B4A484000D6BCB /* LoadingView.swift */; };
+		A972873E25B4A5A1000D6BCB /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972873D25B4A5A1000D6BCB /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		A972872525B48431000D6BCB /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		A972873225B491DC000D6BCB /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		A972873525B49B8D000D6BCB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A972873925B4A484000D6BCB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A972873D25B4A5A1000D6BCB /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		A97286FB25B461DA000D6BCB /* SwiftUI-Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				A972873C25B4A590000D6BCB /* Extensions */,
 				A97286FC25B461DA000D6BCB /* SwiftUI_AppetizersApp.swift */,
 				A972870D25B46442000D6BCB /* Screens */,
 				A972872A25B4917A000D6BCB /* Views */,
@@ -138,6 +143,7 @@
 		A972872A25B4917A000D6BCB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A972873825B4A474000D6BCB /* UIKit Components */,
 				A972872925B4916F000D6BCB /* Cells */,
 			);
 			path = Views;
@@ -150,6 +156,22 @@
 				A972873525B49B8D000D6BCB /* Alert.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A972873825B4A474000D6BCB /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				A972873925B4A484000D6BCB /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		A972873C25B4A590000D6BCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A972873D25B4A5A1000D6BCB /* Color+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +247,9 @@
 				A972872625B48431000D6BCB /* APError.swift in Sources */,
 				A972871E25B47FA3000D6BCB /* AppetizerListCell.swift in Sources */,
 				A972873325B491DC000D6BCB /* AppetizerListViewModel.swift in Sources */,
+				A972873E25B4A5A1000D6BCB /* Color+Ext.swift in Sources */,
 				A972871325B46482000D6BCB /* AccountView.swift in Sources */,
+				A972873A25B4A484000D6BCB /* LoadingView.swift in Sources */,
 				A97286FF25B461DA000D6BCB /* AppetizerTabView.swift in Sources */,
 				A972872325B48302000D6BCB /* NetworkManager.swift in Sources */,
 				A97286FD25B461DA000D6BCB /* SwiftUI_AppetizersApp.swift in Sources */,
