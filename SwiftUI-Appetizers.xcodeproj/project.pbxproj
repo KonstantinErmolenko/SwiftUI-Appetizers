@@ -22,6 +22,7 @@
 		A972873625B49B8D000D6BCB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972873525B49B8D000D6BCB /* Alert.swift */; };
 		A972873A25B4A484000D6BCB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972873925B4A484000D6BCB /* LoadingView.swift */; };
 		A972873E25B4A5A1000D6BCB /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972873D25B4A5A1000D6BCB /* Color+Ext.swift */; };
+		A972874225B4B329000D6BCB /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972874125B4B329000D6BCB /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		A972873525B49B8D000D6BCB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		A972873925B4A484000D6BCB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		A972873D25B4A5A1000D6BCB /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		A972874125B4B329000D6BCB /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +76,13 @@
 		A97286FB25B461DA000D6BCB /* SwiftUI-Appetizers */ = {
 			isa = PBXGroup;
 			children = (
-				A972873C25B4A590000D6BCB /* Extensions */,
 				A97286FC25B461DA000D6BCB /* SwiftUI_AppetizersApp.swift */,
+				A972874125B4B329000D6BCB /* RemoteImage.swift */,
 				A972870D25B46442000D6BCB /* Screens */,
 				A972872A25B4917A000D6BCB /* Views */,
 				A972871825B468BA000D6BCB /* Model */,
 				A972872125B482F1000D6BCB /* Services */,
+				A972873C25B4A590000D6BCB /* Extensions */,
 				A972872B25B49190000D6BCB /* Utilities */,
 				A972870025B461DA000D6BCB /* Assets.xcassets */,
 				A972870525B461DA000D6BCB /* Info.plist */,
@@ -252,6 +255,7 @@
 				A972873A25B4A484000D6BCB /* LoadingView.swift in Sources */,
 				A97286FF25B461DA000D6BCB /* AppetizerTabView.swift in Sources */,
 				A972872325B48302000D6BCB /* NetworkManager.swift in Sources */,
+				A972874225B4B329000D6BCB /* RemoteImage.swift in Sources */,
 				A97286FD25B461DA000D6BCB /* SwiftUI_AppetizersApp.swift in Sources */,
 				A972873625B49B8D000D6BCB /* Alert.swift in Sources */,
 				A972871025B4645E000D6BCB /* AppetizerListView.swift in Sources */,
