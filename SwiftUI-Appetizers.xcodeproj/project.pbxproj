@@ -15,6 +15,7 @@
 		A972871325B46482000D6BCB /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972871225B46482000D6BCB /* AccountView.swift */; };
 		A972871625B464A7000D6BCB /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972871525B464A7000D6BCB /* OrderView.swift */; };
 		A972871A25B468CF000D6BCB /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972871925B468CF000D6BCB /* Appetizer.swift */; };
+		A972871E25B47FA3000D6BCB /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972871D25B47FA3000D6BCB /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A972871225B46482000D6BCB /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		A972871525B464A7000D6BCB /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		A972871925B468CF000D6BCB /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		A972871D25B47FA3000D6BCB /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				A97286FE25B461DA000D6BCB /* AppetizerTabView.swift */,
 				A972870F25B4645E000D6BCB /* AppetizerListView.swift */,
+				A972871D25B47FA3000D6BCB /* AppetizerListCell.swift */,
 				A972871225B46482000D6BCB /* AccountView.swift */,
 				A972871525B464A7000D6BCB /* OrderView.swift */,
 			);
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A972871A25B468CF000D6BCB /* Appetizer.swift in Sources */,
+				A972871E25B47FA3000D6BCB /* AppetizerListCell.swift in Sources */,
 				A972871325B46482000D6BCB /* AccountView.swift in Sources */,
 				A97286FF25B461DA000D6BCB /* AppetizerTabView.swift in Sources */,
 				A97286FD25B461DA000D6BCB /* SwiftUI_AppetizersApp.swift in Sources */,
